@@ -28,10 +28,10 @@ class _PrincipalState extends State<Principal> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _indiceAtual,
-        onTap: (indice) => {
+        onTap: (indice) {
           setState(() {
             _indiceAtual = indice;
-          })
+          });
         },
         type: BottomNavigationBarType.fixed,
         fixedColor: Colors.deepPurple,

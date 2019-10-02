@@ -8,6 +8,8 @@ class AtualizarDados extends StatefulWidget {
 class _AtualizarDadosState extends State<AtualizarDados> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Text("Atualizar dados"),
+    );
   }
 }
